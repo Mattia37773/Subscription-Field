@@ -1,0 +1,9 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.lightswitchField({
+    label: 'Allow None Title'|t('subscription-field'),
+    instructions: 'Allow None Text'|t('subscription-field') , 
+    id: 'allow-none-subscription',
+    name: 'noneSubscription',
+    on: field.noneSubscription,
+}) }} 

@@ -1,0 +1,40 @@
+{
+  "name": "matze/craft-subscription-field",
+  "description": "A Field Type to choose between Craft Subscriptions",
+  "type": "craft-plugin",
+  "license": "mit",
+  "support": {
+    "email": "m@iwf.ch",
+    "issues": "https://github.com/tes.io/issues?state=open",
+    "source": "https://github.com/tes.io",
+    "docs": "https://github.com/tes.io",
+    "rss": "https://github.com/tes.io/releases.atom"
+  },
+  "require": {
+    "php": ">=8.2",
+    "craftcms/cms": "^5.5.0",
+    "craftcms/commerce":" ^5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "matze\\craftsubscriptionfield\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "subscription-field",
+    "name": "Subscription Field",
+    "developer": "Matze",
+    "documentationUrl": "https://github.com/tes.io",
+    "class": "matze\\craftsubscriptionfield\\SubscriptionField"
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
