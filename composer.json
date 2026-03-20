@@ -5,10 +5,10 @@
   "license": "mit",
   "support": {
     "email": "m@iwf.ch",
-    "issues": "https://github.com/tes.io/issues?state=open",
-    "source": "https://github.com/tes.io",
-    "docs": "https://github.com/tes.io",
-    "rss": "https://github.com/tes.io/releases.atom"
+    "issues": "https://github.com/Mattia37773/Subscription-Field/issues?state=open",
+    "source": "https://github.com/Mattia37773/Subscription-Field",
+    "docs": "https://github.com/Mattia37773/Subscription-Field",
+    "rss": "https://github.com/Mattia37773/Subscription-Field/releases.atom"
   },
   "require": {
     "php": ">=8.2",
@@ -24,7 +24,7 @@
     "handle": "subscription-field",
     "name": "Subscription Field",
     "developer": "Matze",
-    "documentationUrl": "https://github.com/tes.io",
+    "documentationUrl": "https://github.com/Mattia37773/Subscription-Field",
     "class": "matze\\craftsubscriptionfield\\SubscriptionField"
   },
   "config": {
